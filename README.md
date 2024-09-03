@@ -18,3 +18,21 @@
 - **Decisão**: A escolha feita.
 - **Consequências**: Impactos positivos e negativos da decisão.
 - **Alternativas Consideradas**: Outras opções avaliadas e por que foram descartadas.
+
+## Exemplo de ADR
+
+### Contexto
+Necessidade de um banco de dados para armazenar dados de usuários e transações.
+
+### Decisão
+Utilizar PostgreSQL como banco de dados principal.
+
+### Consequências
+
+- **Positivas**: Alta confiabilidade, suporte a ACID, boa comunidade de suporte.
+- **Negativas**: Curva de aprendizado para novos desenvolvedores.
+
+### Alternativas Consideradas
+
+- **MySQL**: Descartado devido a limitações em algumas funcionalidades avançadas.
+- **MongoDB**: Descartado por falta de suporte a transações ACID completas.
