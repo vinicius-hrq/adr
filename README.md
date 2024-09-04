@@ -36,3 +36,26 @@ Utilizar PostgreSQL como banco de dados principal.
 
 - **MySQL**: Descartado devido a limitações em algumas funcionalidades avançadas.
 - **MongoDB**: Descartado por falta de suporte a transações ACID completas.
+
+## Benefícios dos ADRs
+
+- **Documentação Contínua**  
+  Documenta o raciocínio por trás das decisões ao longo do tempo.
+
+- **Facilidade na Onboarding**  
+  Novos membros da equipe podem entender rapidamente as escolhas arquiteturais.
+
+- **Suporte à Manutenção**  
+  Facilita a manutenção e evolução do sistema ao longo do tempo.
+
+## Ferramentas e Recursos
+
+- **Ferramentas para ADRs**  
+  - **Markdown**: Formato simples e eficiente para escrever ADRs.
+  - **Git**: Ótimo para versionamento e colaboração.
+
+- **Recursos Adicionais**  
+  - **Adr-tools**: [https://github.com/npryce/adr-tools](https://github.com/npryce/adr-tools)  
+    Conjunto de scripts para facilitar a criação de ADRs.
+  - **Documentação do Template**: Exemplos e modelos para iniciar com ADRs.  
+    Mantenha os ADRs em um repositório acessível a todos.
