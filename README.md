@@ -48,6 +48,17 @@ Utilizar PostgreSQL como banco de dados principal.
 - **Suporte à Manutenção**  
   Facilita a manutenção e evolução do sistema ao longo do tempo.
 
+## Boas Práticas
+
+- **Atualize Regularmente**  
+  Revise e atualize os ADRs conforme o projeto evolui.
+
+- **Colaboração**  
+  Envolva toda a equipe na criação e revisão dos ADRs.
+
+- **Armazenamento Centralizado**  
+  Mantenha os ADRs em um repositório acessível a todos.
+
 ## Ferramentas e Recursos
 
 - **Ferramentas para ADRs**  
@@ -55,7 +66,12 @@ Utilizar PostgreSQL como banco de dados principal.
   - **Git**: Ótimo para versionamento e colaboração.
 
 - **Recursos Adicionais**  
-  - **Adr-tools**: [https://github.com/npryce/adr-tools](https://github.com/npryce/adr-tools)  
-    Conjunto de scripts para facilitar a criação de ADRs.
+  - [Adr-tools](https://github.com/npryce/adr-tools): Conjunto de scripts para facilitar a criação de ADRs.
   - **Documentação do Template**: Exemplos e modelos para iniciar com ADRs.  
     Mantenha os ADRs em um repositório acessível a todos.
+
+## Conclusão
+
+- ADRs são fundamentais para a documentação das decisões arquiteturais.
+- Promovem transparência, consistência e facilitam a comunicação.
+- Incentive a adoção de ADRs em seu projeto para melhorar a qualidade da arquitetura e a colaboração na equipe.
